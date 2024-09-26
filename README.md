@@ -1,6 +1,10 @@
-Some Copilot-generated scripts adapted to work with EGI's MLFlow instance.
+# MLFlow tracking server demo
 
-Workflow:
+The goal is to show how the MLFlow tracking server deployed on EGI resources can be used to store ML metadata and models, supporting both training and inference tasks.
+
+To create a profile, add users to your experiment, or add users to your model, visit: https://mlflow.intertwin.fedcloud.eu/signup
+
+General workflow:
 
 1. Build the environment and set your credentials for the MLFlow server in `train.py` and `inference.py`
 2. Run `train.py`: pushes ML training logs and best model to MLFLow tracking server. 
