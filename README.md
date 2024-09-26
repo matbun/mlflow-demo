@@ -6,7 +6,7 @@ To create a profile, add users to your experiment, or add users to your model, v
 
 General workflow:
 
-1. Build the environment and set your credentials for the MLFlow server in `train.py` and `inference.py`
+1. Build the Python virtual environment and set your credentials for the MLFlow server in `train.py` and `inference.py` by setting `MLFLOW_TRACKING_USERNAME` and `MLFLOW_TRACKING_PASSWORD`.
 2. Run `train.py`: pushes ML training logs and best model to MLFLow tracking server. 
 3. Register the trained model as `MNIST-classifier` on the MLFLow's models registry
 4. Run `inference.py`: pulls best model (recently registered) and uses it to make predictions, saving them as a PNG image.
