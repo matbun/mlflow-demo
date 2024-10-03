@@ -1,0 +1,4 @@
+mlflow==2.16.*
+git+https://github.com/matbun/mlflow-export-import@master
+torch==2.4.*
+torchvision
