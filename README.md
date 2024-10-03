@@ -11,5 +11,5 @@ General workflow:
 3. Register the trained model as `MNIST-classifier` on the MLFLow's models registry
 4. Run `inference.py`: pulls best model (recently registered) and uses it to make predictions, saving them as a PNG image.
 
-The `sync-runs` directory isprovides an example on how to generate the logs locally and *later* upload them to the remote MLFlow server.
+The `sync-runs` directory provides an example on how to generate the logs locally and *later* upload them to the remote MLFlow server.
 This may be useful when you have not internet connection on compute nodes or for cherry-picking of runs.
