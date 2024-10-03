@@ -12,4 +12,4 @@ General workflow:
 4. Run `inference.py`: pulls best model (recently registered) and uses it to make predictions, saving them as a PNG image.
 
 The `sync-runs` directory provides an example on how to generate the logs locally and *later* upload them to the remote MLFlow server.
-This may be useful when you have not internet connection on compute nodes or for cherry-picking of runs.
+This may be useful when you have not internet connection on compute nodes or for cherry-picking.
