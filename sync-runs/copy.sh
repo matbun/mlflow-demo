@@ -1,4 +1,7 @@
 #!/bin/bash
+
+# Copy a local run under ./mlruns to the remote MLFlow server on EGI cloud
+
 export MLFLOW_TRACKING_INSECURE_TLS='true'
 export MLFLOW_TRACKING_USERNAME='matteo.bunino@cern.ch'
 export MLFLOW_TRACKING_PASSWORD='YOUR_PWD'
