@@ -4,6 +4,9 @@ The goal is to show how the MLFlow tracking server deployed on EGI resources can
 
 To create a profile, add users to your experiment, or add users to your model, visit: https://mlflow.intertwin.fedcloud.eu/signup
 
+> [!NOTE]
+> Make sure to also join the interTwin Virtual Organization (VO).
+
 General workflow:
 
 1. Build the Python virtual environment and set your credentials for the MLFlow server in `train.py` and `inference.py` by setting `MLFLOW_TRACKING_USERNAME` and `MLFLOW_TRACKING_PASSWORD`.
